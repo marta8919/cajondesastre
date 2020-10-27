@@ -1,0 +1,41 @@
+
+  :root {
+    --main-white: #FEFEFE;
+    --main-blue: #415164;
+    --main-orange: #eddc6b;
+    --main-bluelight: #9ed0c9;
+    --main-grey: #031424;
+    }
+
+body {
+    background: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    background: var(--main-bluelight);
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: var(--main-blue);
+    color: var(--main-white);
+}
+
+  .june:link {
+    text-decoration: none;
+  }
+
+  .june:hover {
+    color: var(--main-orange);
+  }
+
+.mytitle {
+  color: var(--main-blue);
+  font-weight: bold;
+}
+
+
+.myabout {
+  background-color: var(--main-bluelight);
+}
+
