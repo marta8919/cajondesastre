@@ -1,10 +1,10 @@
 
   :root {
     --main-white: #FEFEFE;
-    --main-blue: #415164;
-    --main-orange: #eddc6b;
-    --main-bluelight: #9ed0c9;
-    --main-grey: #031424;
+    --main-green: #999606;
+    --main-orange: #850e00;
+    --main-orangelight: #fe8c06;
+    --main-yellow: #fad000;
     }
 
 body {
@@ -13,12 +13,11 @@ body {
 }
 
 nav {
-    background: var(--main-bluelight);
+    background: var(--main-orangelight);
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    background-color: var(--main-blue);
-    color: var(--main-white);
+  color: var(--main-white);
 }
 
   .june:link {
@@ -30,12 +29,19 @@ nav {
   }
 
 .mytitle {
-  color: var(--main-blue);
+  color: var(--main-orange);
   font-weight: bold;
 }
 
+.mytitle2 {
+  font-weight: bold;
+  color: var(--main-white);
+  text-shadow: 3px 3px #850e00;
+}
 
 .myabout {
-  background-color: var(--main-bluelight);
+  background-image: url(/public/img/index/background.jpg);
+  background-size: 200vh;
 }
+
 
