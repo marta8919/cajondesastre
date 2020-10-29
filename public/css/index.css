@@ -56,7 +56,7 @@ nav {
 .myheader {
   background-image: url(../img/piscinabackground.jpg);
   background-size: 200vh;
-  background-color: var(--main-orangelight);
+  background-color: var(--main-blue);
 }
 
 .myfooter2 {
