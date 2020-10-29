@@ -40,8 +40,9 @@ nav {
 }
 
 .myabout {
-  background-image: url(/public/img/index/background.jpg);
+  background-image: url(../img/index/background.jpg);
   background-size: 200vh;
+  background-color: var(--main-orangelight);
 }
 
 
