@@ -60,11 +60,11 @@ nav {
 }
 
 .myfooter2 {
-  background-image: url(../img/piscinabackground.jpg);
+  /* background-image: url(../img/piscinabackground.jpg); */
   background-size: 200vh;
-  background-color: var(--main-blue);
-  color: white;
-  text-shadow: 1px 1px #000000;
+  /* background-color: var(--main-blue); */
+  /* color: white; */
+  /* text-shadow: 1px 1px #000000; */
 
 }
 
